@@ -80,7 +80,7 @@ const accordionContent = [
     img: "images/1JPG.JPG",
     body: "This minimalist site takes full advantage of React and SPA. A seamless experience with a clean look mobile friendly. Using clean code that is readable taking full advantage of E6 syntax and implementing it. This project is fully functional. E-commerce app that has full stripe implementation. Material-UI is used for the overall look with styled components complimenting reacts framework beautifully and commercejs an API that serves as the back-end managing product inventory. A full Functional CRUD App that is capable of Creating , Reading, Updating, Deleting Information. ",
     link: "https://shopfare.netlify.app/",
-    linkText: "Check it out",
+    linkText: "Check It Out",
     tags: "Netlify, Design by me, CRUD, Ecommerce"
   },
   {
@@ -88,7 +88,7 @@ const accordionContent = [
     img: "images/4.JPG",
     body: "The main goal of this project was to get a better sense of Javascript HTML CSS and begin learning Kaboom.js as this library came highly recommended. Kaboom.js is a library that allowed me to use a lot of their built-in functions.Creating scenes, adding layers, creating sprites, dealing with actions, collisions, adding key events. I enjoyed getting into the world of game development by using Kaboom.js there is a learning curve but the documentation is solid.",
     link: "https://marioisback.netlify.app/",
-    linkText: "This is my favourite mini project. Fun animation!",
+    linkText: "Check It Out",
     tags: "kabbom.js, game  dev, Mario,  "
   },
   {
@@ -96,21 +96,23 @@ const accordionContent = [
     img: "images/7.JPG",
     body: "Cryptocurrency is a challenge to our notions of money and stored economic value. This app is meant to simplify the payment process, Connect your Metamask account to this site and send crypto to anywhere in the world. Lower gas fees allow for affordable transactions. Solidity is used to write the smart contracts that work with Ethereum blockchain network",
     link: "https://quickoin.netlify.app/",
-    linkText: "CrypoCurrency",
+    linkText: "Check It Out",
     tags: "Fun Javascript, Firebase"
   },
   {
     title: "Dijkstra's Algorithm",
     img: "images/11.JPG",
     body: "The algorithm exists in many variants. Dijkstra's original algorithm found the shortest path between two given nodes, but a more common variant fixes a single node as the source node and finds the shortest paths from the source to all other nodes in the graph, producing a shortest-path tree.",
+     link: "https://dijkstraalgorithmvisulaizer.netlify.app/",
+    linkText: "Check It Out .",
     tags: "Pathfinding Algorithm, Dijkstra"
   },
   {
     title: "People.ai",
     img: "images/13.JPG",
-    body: "",
-    link: "",
-    linkText: "Style, mobile friendly .",
+    body: "Figma did the heavy lifting in terms of the design, layout, colour.React was instrumental as Components played a key role alongside javascript and CSSTransformed a Figma design into a fully functioning Modern UI/UX Website using React JS.Can be adapted or repurposed as a blog template to host various uses, like- business platforms, news outlet, personal blogs, or non profits .",
+    link: "https://blog-site-ai.netlify.app/",
+    linkText: "Check It Out .",
     tags: " React, Tricky CSS,Responsive"
   }
 ]
