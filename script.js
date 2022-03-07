@@ -77,7 +77,7 @@ $(document).ready(function(){
 const accordionContent = [
   {
     title: "A work in progress",
-    img: "images/alex1.webp",
+    img: "images/1JPG.JPG",
     body: "This is my latest project. I put aside work on it to build this site, so you may encounter bugs. It's built on an entirely new-to-me stack: Netlify CMS, Eleventy static site generator, templates in Nunjucks, running on Netlify. I'm a big believer in modular systems, so this is all built using Netlify CMS's 'variable type' list widget which enables a page-builder type experience. ",
     link: "https://agnewiler.netlify.app/",
     linkText: "Check it out",
