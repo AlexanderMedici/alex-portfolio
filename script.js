@@ -76,62 +76,45 @@ $(document).ready(function(){
 // ======================= 
 const accordionContent = [
   {
-    title: "A work in progress",
+    title: "ShopFare",
     img: "images/1JPG.JPG",
-    body: "This is my latest project. I put aside work on it to build this site, so you may encounter bugs. It's built on an entirely new-to-me stack: Netlify CMS, Eleventy static site generator, templates in Nunjucks, running on Netlify. I'm a big believer in modular systems, so this is all built using Netlify CMS's 'variable type' list widget which enables a page-builder type experience. ",
-    link: "https://agnewiler.netlify.app/",
+    body: "This minimalist site takes full advantage of React and SPA. A seamless experience with a clean look mobile friendly. Using clean code that is readable taking full advantage of E6 syntax and implementing it. This project is fully functional. E-commerce app that has full stripe implementation. Material-UI is used for the overall look with styled components complimenting reacts framework beautifully and commercejs an API that serves as the back-end managing product inventory. A full Functional CRUD App that is capable of Creating , Reading, Updating, Deleting Information. ",
+    link: "https://shopfare.netlify.app/",
     linkText: "Check it out",
-    tags: "Netlify, Design by me"
+    tags: "Netlify, Design by me, CRUD, Ecommerce"
   },
   {
-    title: "An annual report mini-site",
-    img: "images/woodgreen.jpg",
-    body: "Despite the 'mini-site' label this site is actually quite large. It was developed as a Wordpress plugin so as not to require monkeying with Woodgreen's current theme. It utilizes <a href='https://www.advancedcustomfields.com/' target='_blank'>ACF</a> flexible fields to provide a page-builder like functionality on the backend.",
-    link: "https://www.woodgreen.org/about-us/annual-reports/2019-20/governance-update-woodgreen-foundation/",
-    linkText: "This is my favourite page. Fun animating charts!",
-    tags: "Wordpress, Wordpress plugin, Animation, Design by Rally Rally"
+    title: "Mario Game",
+    img: "images/4.JPG",
+    body: "The main goal of this project was to get a better sense of Javascript HTML CSS and begin learning Kaboom.js as this library came highly recommended. Kaboom.js is a library that allowed me to use a lot of their built-in functions.Creating scenes, adding layers, creating sprites, dealing with actions, collisions, adding key events. I enjoyed getting into the world of game development by using Kaboom.js there is a learning curve but the documentation is solid.",
+    link: "https://marioisback.netlify.app/",
+    linkText: "This is my favourite mini project. Fun animation!",
+    tags: "kabbom.js, game  dev, Mario,  "
   },
   {
-    title: "My wedding website",
-    img: "images/vector.svg",
-    body: "A labour of love! I wanted to build something fun for my wedding. Move your mouse around and Kasia and I will watch where you go. Click the heart emoji to shoot an arrow through it and make us kiss! On mobile you grab onto the bow and arrow and point it at the heart to do the same thing. (I mocked up a version of the mobile site that used your phone's accelerometer to move the ball around, which I thought was pretty cool but is so far from a normal mode of input that it was pretty confusing.)</p><p>Guests were all assigned custom urls at which they could RSVP and read more details. The site is running on Firebase and uses their API to create a slightly unusual RSVP form which saves as you go. I wanted to integrate the gift registry into the site too but ran out of time.",
-    link: "https://kasia-fraser.love/rsvp/v4jXBVDBjTyz7YDY9vDxVjmm",
-    linkText: "Here's Doug's RSVP page. Feel free to play around with the form.",
+    title: "QuicKoin",
+    img: "images/7.JPG",
+    body: "Cryptocurrency is a challenge to our notions of money and stored economic value. This app is meant to simplify the payment process, Connect your Metamask account to this site and send crypto to anywhere in the world. Lower gas fees allow for affordable transactions. Solidity is used to write the smart contracts that work with Ethereum blockchain network",
+    link: "https://quickoin.netlify.app/",
+    linkText: "CrypoCurrency",
     tags: "Fun Javascript, Firebase"
   },
   {
-    title: "A big modular Wordpress site",
-    img: "images/cv.jpg",
-    body: "Likely takes the crown for the biggest site I've created. Every piece of this site is an <a href='https://www.advancedcustomfields.com/' target='_blank'>ACF</a> flexible field, which makes this an incredibly flexible site on the backend. The centrepiece, in my mind is the robust 'filter' feature on the Community page which lets you sort through a huge number of 'business cards' via AJAX.",
-    link: "https://climateventures.org/community/",
-    linkText: "Check out the filter page here.",
-    tags: "Wordpress, AJAX"
+    title: "Dijkstra's Algorithm",
+    img: "images/11.JPG",
+    body: "The algorithm exists in many variants. Dijkstra's original algorithm found the shortest path between two given nodes, but a more common variant fixes a single node as the source node and finds the shortest paths from the source to all other nodes in the graph, producing a shortest-path tree.",
+    tags: "Pathfinding Algorithm, Dijkstra"
   },
   {
-    title: "A patched up Squarespace site",
-    img: "images/schools.jpg",
-    body: "This is a Squarespace website that I was called into help with. On the CSS side, the most exciting bit is the fairly complicated underline effect on the main headings. These are created with a precisely defined repeating linear gradient background.</p><p>Squarespace has no support for multilingual sites, which this is. To make the header and footer change to match the language of the page I'm using javascript to read the site url and then swap in the correct elements based on the page belonging to the 'en' or 'fr' part of the site.</p><p>On the 'Resources' page I AJAX in the next page of resources right away to get around Squarespace's limit on the number of blog posts that a page can show at once. Any further posts (if they exist) can be AJAX'd in by clicking on a button at the bottom. </p><p>The 'Resources' are also filterable but Squarespace's filter widget is confoundingly dumb. It gives no indication of what the current filter state is. To fix this, I parse the url again and write a title based on this. I also made the filter load posts by AJAX to prevent a confusing page reload.",
-    link: "https://www.healthyschoolsalliance.ca/en/resources/",
-    linkText: "Check out the Resources page.",
-    tags: "Squarespace, AJAX, Tricky CSS, Multilingual"
-  },
-  {
-    title: "A Multilingual Wordpress Gutenberg site",
-    img: "images/meck.jpg",
-    body: "This fairly simple site is built entirely on Wordpress' Gutenberg editor, making for a flexible component based site with a fully WYSIWYG editor experience. The multilingual logic is all custom code. A lot of attention was paid to accessibility on this site.",
-    link: "https://meckplaybook.com/plan-updates/",
-    linkText: "This page has a fun little timeline slider thing.",
-    tags: "Wordpress, Gutenberg, Multilingual"
-  },
-  {
-    title: "A fully custom Squarespace site",
-    img: "images/book.jpg",
-    body: "This commerce site is running on Squarespace's 'Developer' platform which allows for <i>almost</i> fully custom themes. The latest version of Squarespace has retired the developer platform which I think was the right call on their part.",
-    link: "https://www.heresmybook.com/",
-    linkText: "Check it out",
-    tags: "Squarespace, Squarespace Developer Platform"
+    title: "People.ai",
+    img: "images/13.JPG",
+    body: "",
+    link: "",
+    linkText: "Style, mobile friendly .",
+    tags: " React, Tricky CSS,Responsive"
   }
 ]
+
 const accordion = document.getElementById('accordion');
 
 let accordionHTML = "";
