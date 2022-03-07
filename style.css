@@ -303,6 +303,134 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+/*  Acordion Section Styling
+=============================================*/
+img{
+  width: 100%;
+}
+img[alt="Fraser Page"]{
+  height:9rem;
+  width: 9rem;
+  border-radius:100%;
+  object-fit: cover;
+  margin-right: 2rem;
+}
+
+
+
+/*Accordion*/
+dl{
+  margin-bottom: 5rem;
+}
+dt{
+  font-weight: 700;
+  color: #1a1a33;
+  margin: 0;
+  line-height: 2;
+  position: relative;
+  cursor:pointer;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.35s;
+}
+dt:not(.open):hover{
+  background-color: #00000005;
+}
+dt h3{
+  margin-right:2rem;
+}
+dt img{
+  width: 6rem;
+  transition: transform 0.8s;
+  transform-origin: right center;
+  margin-left: auto;
+}
+.active dt:hover img {
+  transform: scale(1.5);
+}
+#accordion:not(.active) dt img,
+#accordion.active dt.open img{
+  transform: scale(0);
+}
+.accordion-right img{
+  transition: transform 0.8s;
+  transform: scale(0);
+  transform-origin: left top;
+}
+dt.open + dd .accordion-right img{
+  transform: scale(1)
+}
+
+dl.active dt:focus,
+dl.active dt:hover {
+  outline:none;
+}
+dd {
+  margin: 0;
+  transition: height .5s ease;
+  overflow: hidden;
+  border-bottom: 1px solid white;
+}
+dd > :last-child{
+  margin-bottom: 2rem;  
+}
+
+.accordion-right {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem
+}
+.accordion-left {
+  margin-bottom: 1.5rem
+}
+
+@media screen and (min-width: 600px) {
+  dd {
+    display: flex;
+  }
+
+  .accordion-right {
+    flex: 0 0 50%;
+    order: 1;
+    margin-left: 10%;
+  }
+
+  .accordion-left {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    flex: 1;
+  }
+
+  .accordion-left>a {
+    margin-top: auto;
+  }
+}
+
+/* accordion media Queries */
+@media screen and (min-width:600px){
+  body{
+    font-size:19px;
+  }
+  header{
+    display:flex;
+  }
+}
+header {
+  margin-bottom: 7rem;
+}
+@media screen and (min-width:1100px){
+  .columns {
+    column-count: 2;
+    column-gap: 2rem;
+  }
+  .columns h3{
+    column-span: all;
+  }
+}
+
+
+
 
 /*7.3. Portfolio subpage
 ======================================= */
