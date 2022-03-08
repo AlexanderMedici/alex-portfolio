@@ -42,7 +42,8 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["JS Developer", "Full-Stack Developer", "Designer", "Freelancer"],
+      strings: ["Software Engineer ", "Certified Tech Nerd", "Driver of Business Disruption & Innovation",
+      ],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
@@ -78,7 +79,7 @@ const accordionContent = [
   {
     title: "ShopFare",
     img: "images/1JPG.JPG",
-    body: "This minimalist site takes full advantage of React and SPA. A seamless experience with a clean look mobile friendly. Using clean code that is readable taking full advantage of E6 syntax and implementing it. This project is fully functional. E-commerce app that has full stripe implementation. Material-UI is used for the overall look with styled components complimenting reacts framework beautifully and commercejs an API that serves as the back-end managing product inventory. A full Functional CRUD App that is capable of Creating , Reading, Updating, Deleting Information. " ,
+    body: " Shopefare is a fully functional e-Commerce website with Stripe integration for card transactions. The e-commerce site showcases items/products for sale on an intuitive design, which places emphasis on a user-centric approach. Simply click on any item, and add the item to the site's cart. Then on the next page complete the prompts requesting shipping, email, and payment details. After the payment is processed, an email will arrive to the one provided, notifying the user of the purchase and of shipping confirmation.Integrated with commerce.JS an API that simplifies adding or removing products.As this site is customizable, scalable, and secure, it could be used to host very large online merchants; comparable to the scale of Amazon or Walmart. The side could also be used in conjunction with a physical store of any size, to provide that store with a digital presence and a larger reach. This site could also be geared towards smaller mom-and-pop shops. Alternatively it could be used to sell NFT projects. " ,
     link: "https://shopfare.netlify.app/" ,
       linkText: "Check It Out Use This Link .",
     tags: "Netlify, Design by me, CRUD, Ecommerce"
