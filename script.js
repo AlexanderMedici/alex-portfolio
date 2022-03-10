@@ -35,11 +35,13 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["JS Developer", "Full-Stack Developer", "Designer", "Freelancer"],
+        strings: ["JS Developer", "Full-Stack Developer", "React and JS developer", "Mobile Developer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
+
+
 
     var typed = new Typed(".typing-2", {
       strings: ["Software Engineer ", "Certified Tech Nerd", "Driver of Business Disruption & Innovation",
@@ -77,31 +79,31 @@ $(document).ready(function(){
 // ======================= 
 const accordionContent = [
   {
-    title: "A fully functional e-Commerce Website",
+     title: "A fully functional e-Commerce Website",
     img: "images/1.webp",
-    body: " Shopefare is a fully functional e-Commerce website with Stripe integration for card transactions. The e-commerce site showcases items/products for sale on an intuitive design, which places emphasis on a user-centric approach. Simply click on any item, and add the item to the site's cart. Then on the next page complete the prompts requesting shipping, email, and payment details. After the payment is processed, an email will arrive to the one provided, notifying the user of the purchase and of shipping confirmation.                                                 Integrated with commerce.JS an API that simplifies adding or removing products.As this site is customizable, scalable, and secure, it could be used to host very large online merchants; comparable to the scale of Amazon or Walmart. The side could also be used in conjunction with a physical store of any size, to provide that store with a digital presence and a larger reach. This site could also be geared towards smaller mom-and-pop shops. Alternatively it could be used to sell NFT projects." ,
+    body: " Shopefare is a fully functional e-Commerce website with Stripe integration for card transactions. The e-commerce site showcases items/products for sale on an intuitive design, which places emphasis on a user-centric approach. Simply click on any item, and add the item to the site's cart. Then on the next page complete the prompts requesting shipping, email, and payment details. After the payment is processed, an email will arrive to the one provided, notifying the user of the purchase and of shipping confirmation." ,
     link: "https://shopfare.netlify.app/" ,
       linkText: "Check It Out Use This Link .",
     tags: "Netlify, Design by me, CRUD, Ecommerce"
   },
   {
-    title: "Mario Game",
+    title: "Mario There & back Again Computer Game",
     img: "images/4.webp",
-    body: "The main goal of this project was to get a better sense of JavaScript HTML CSS and begin learning Kaboom.js as this library came highly recommended. Kaboom.js is a library that allowed me to use a lot of their built-in functions.Creating scenes, adding layers, creating sprites, dealing with actions, collisions, adding key events. I enjoyed getting into the world of game development by using Kaboom.js there is a learning curve but the documentation is solid.",
+    body: "This computer game is a nostalgic throwback of the 1980's classic Mario. The static website integrates server-side rendering to serve pre-built HTML, CSS, and JavaScript files. Mario takes advantage of Kabbom.js built-in library functions which simplify game development for 2D or even 3D game assets. Camera positioning, collisions, movement, and in-game power-ups are all made available in this game and integrate smoothly.",
     link: "https://marioisback.netlify.app/",
       linkText: "Check It Out Use This Link .",
     tags: "kabbom.js, game  dev, Mario,  "
   },
   {
-    title: "QuicKoin",
+    title: "Blockchain Transaction Application Quickoin",
     img: "images/7.webp",
-    body: "Quickoin is A full-fledged application which allows users to send transactions anywhere in the world, through the blockchain. Each transaction is paired with a GIF & stored forever on the digital ledger. Users can login with their metamask Ethereum wallet to Quickkoin. They will then be prompted to fill out a secure form detailing to whom they wish to send crypto to, and the amount they wish to send. The transaction will then be sent over the blockchain. A GIF will be attached to the transaction so that it can be tracked by the sender.",
+    body: "Quickoin is A full-fledged application which allows users to send transactions anywhere in the world, through the blockchain. Each transaction is paired with a GIF & stored forever on the digital ledger. Users can login with their metamask ethereum wallet to Quickoin. They will then be prompted to fill out a secure form detailing to whom they wish to send crypto to, and the amount they wish to send. The transaction will then be sent over the blockchain. A GIF will be attached to the transaction so that it can be tracked by the sender.",
     link: "https://quickoin.netlify.app/",
       linkText: "Check It Out Use This Link .",
     tags: "Fun Javascript, Firebase"
   },
   {
-    title: "Dijkstra's Algorithm",
+    title: "Path Finder Implementing Dijkstra's Algorithm",
     img: "images/11.webp",
     body: "This is a path finder project makes use of Dijkstra's algorithm. The project displays a graphed board where predetermined starting (top left box) and ending (bottom right box) nodes are provided. One can use their mouse anywhere on the grid, to block the route between the two nodes. Space which is blocked out on the grid are displayed as buildings. Once the user is satisfied with the areas blocked on the grid, the run algorithm button can be clicked. The pathfinder will then deploy Dijkstra's algorithm. This will quickly find the shortest path between the two given nodes.",
      link: "https://dijkstraalgorithmvisulaizer.netlify.app/",
@@ -109,9 +111,9 @@ const accordionContent = [
     tags: "Pathfinding Algorithm, Dijkstra"
   },
   {
-    title: "People.ai",
+    title: "Modern UI/UX Blogging Platform Website.",
     img: "images/13.webp",
-    body: "Figma did the heavy lifting in terms of the design, layout, colour.React was instrumental as Components played a key role alongside Javascript and CSS Transformed a Figma design into a fully functioning Modern UI/UX Website using React JS.Can be adapted or repurposed as a blog template to host various uses, like- business platforms, news outlet, personal blogs, or non profits .",
+    body: "Transformed a Figma design into a fully functioning Modern UI/UX Website using React JS. Can be adapted or repurposed as a blog template to host various uses, like- business platforms, news outlet, personal blogs, or non profits .",
     link: "https://blog-site-ai.netlify.app/",
     linkText: "Check It Out Use This Link .",
     tags: " React, Tricky CSS,Responsive"
