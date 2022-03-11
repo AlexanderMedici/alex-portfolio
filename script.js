@@ -79,6 +79,22 @@ $(document).ready(function(){
 // ======================= 
 const accordionContent = [
   {
+    title: " A Path Finder Project - Implementing Dijkstra's Algorithm",
+    img: "images/11.webp",
+    body: "This is a path finder project makes use of Dijkstra's algorithm. The project displays a graphed board where predetermined starting (top left box) and ending (bottom right box) nodes are provided. One can use their mouse anywhere on the grid, to block the route between the two nodes. Space which is blocked out on the grid are displayed as buildings. Once the user is satisfied with the areas blocked on the grid, the run algorithm button can be clicked. The pathfinder will then deploy Dijkstra's algorithm. This will quickly find the shortest path between the two given nodes.",
+     link: "https://dijkstraalgorithmvisulaizer.netlify.app/",
+    linkText: "Check It Out Use This Link .",
+    tags: "Pathfinding Algorithm, Dijkstra"
+  },
+  {
+    title: "Blockchain Transaction Application",
+    img: "images/7.webp",
+    body: "Quickoin is A full-fledged application which allows users to send transactions anywhere in the world, through the blockchain. Each transaction is paired with a GIF & stored forever on the digital ledger. Users can login with their metamask ethereum wallet to Quickoin. They will then be prompted to fill out a secure form detailing to whom they wish to send crypto to, and the amount they wish to send. The transaction will then be sent over the blockchain. A GIF will be attached to the transaction so that it can be tracked by the sender.",
+    link: "https://quickoin.netlify.app/",
+      linkText: "Check It Out Use This Link .",
+    tags: "Fun Javascript, Firebase"
+  },
+  {
      title: "A fully functional e-Commerce Website",
     img: "images/1.webp",
     body: " Shopefare is a fully functional e-Commerce website with Stripe integration for card transactions. The e-commerce site showcases items/products for sale on an intuitive design, which places emphasis on a user-centric approach. Simply click on any item, and add the item to the site's cart. Then on the next page complete the prompts requesting shipping, email, and payment details. After the payment is processed, an email will arrive to the one provided, notifying the user of the purchase and of shipping confirmation." ,
@@ -87,7 +103,7 @@ const accordionContent = [
     tags: "Netlify, Design by me, CRUD, Ecommerce"
   },
   {
-    title: "Mario There & back Again Computer Game",
+    title: "A Mario Computer Game",
     img: "images/4.webp",
     body: "This computer game is a nostalgic throwback of the 1980's classic Mario. The static website integrates server-side rendering to serve pre-built HTML, CSS, and JavaScript files. Mario takes advantage of Kabbom.js built-in library functions which simplify game development for 2D or even 3D game assets. Camera positioning, collisions, movement, and in-game power-ups are all made available in this game and integrate smoothly.",
     link: "https://marioisback.netlify.app/",
@@ -95,23 +111,7 @@ const accordionContent = [
     tags: "kabbom.js, game  dev, Mario,  "
   },
   {
-    title: "Blockchain Transaction Application Quickoin",
-    img: "images/7.webp",
-    body: "Quickoin is A full-fledged application which allows users to send transactions anywhere in the world, through the blockchain. Each transaction is paired with a GIF & stored forever on the digital ledger. Users can login with their metamask ethereum wallet to Quickoin. They will then be prompted to fill out a secure form detailing to whom they wish to send crypto to, and the amount they wish to send. The transaction will then be sent over the blockchain. A GIF will be attached to the transaction so that it can be tracked by the sender.",
-    link: "https://quickoin.netlify.app/",
-      linkText: "Check It Out Use This Link .",
-    tags: "Fun Javascript, Firebase"
-  },
-  {
-    title: "Path Finder Implementing Dijkstra's Algorithm",
-    img: "images/11.webp",
-    body: "This is a path finder project makes use of Dijkstra's algorithm. The project displays a graphed board where predetermined starting (top left box) and ending (bottom right box) nodes are provided. One can use their mouse anywhere on the grid, to block the route between the two nodes. Space which is blocked out on the grid are displayed as buildings. Once the user is satisfied with the areas blocked on the grid, the run algorithm button can be clicked. The pathfinder will then deploy Dijkstra's algorithm. This will quickly find the shortest path between the two given nodes.",
-     link: "https://dijkstraalgorithmvisulaizer.netlify.app/",
-    linkText: "Check It Out Use This Link .",
-    tags: "Pathfinding Algorithm, Dijkstra"
-  },
-  {
-    title: "Modern UI/UX Blogging Platform Website.",
+    title: "Modern UI/UX Blog Site.",
     img: "images/13.webp",
     body: "Transformed a Figma design into a fully functioning Modern UI/UX Website using React JS. Can be adapted or repurposed as a blog template to host various uses, like- business platforms, news outlet, personal blogs, or non profits .",
     link: "https://blog-site-ai.netlify.app/",
