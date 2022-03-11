@@ -973,7 +973,7 @@ header {
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid #0b07e7;;
+    border: 5px solid #0b07e7;
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover img{
@@ -992,6 +992,7 @@ header {
     border: 2px solid #0b07e7;!important;
     transition: all 0.3s ease;
 }
+
 .owl-dot.active{
     width: 35px;
     border-radius: 14px;
