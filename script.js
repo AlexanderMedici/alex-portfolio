@@ -96,8 +96,8 @@ const accordionContent = [
   },
   {
      title: "A fully functional e-Commerce Website",
-    img: "images/1.webp",
-    body: " Shopefare is a fully functional e-Commerce website with Stripe integration for card transactions. The e-commerce site showcases items/products for sale on an intuitive design, which places emphasis on a user-centric approach. Simply click on any item, and add the item to the site's cart. Then on the next page complete the prompts requesting shipping, email, and payment details. After the payment is processed, an email will arrive to the one provided, notifying the user of the purchase and of shipping confirmation." ,
+    img: "images/shopfare.webp",
+    body: " Shopfare is a fully functional e-Commerce website with Stripe integration for card transactions. The e-commerce site showcases items/products for sale on an intuitive design, which places emphasis on a user-centric approach. Simply click on any item, and add the item to the site's cart. Then on the next page complete the prompts requesting shipping, email, and payment details. After the payment is processed, an email will arrive to the one provided, notifying the user of the purchase and of shipping confirmation." ,
     link: "https://shopfare.netlify.app/" ,
       linkText: "Check It Out Use This Link .",
     tags: "Netlify, Design by me, CRUD, Ecommerce"
