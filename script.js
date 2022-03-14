@@ -89,7 +89,7 @@ const accordionContent = [
   {
     title: "Blockchain Transaction Application",
     img: "images/7.webp",
-    body: "Quickoin is A full-fledged application which allows users to send transactions anywhere in the world, through the blockchain. Each transaction is paired with a GIF & stored forever on the digital ledger. Users can login with their metamask ethereum wallet to Quickoin. They will then be prompted to fill out a secure form detailing to whom they wish to send crypto to, and the amount they wish to send. The transaction will then be sent over the blockchain. A GIF will be attached to the transaction so that it can be tracked by the sender.",
+    body: "Quickoin allows users to send transactions through the block chain. Each transaction is paired with a Gif & stored forever on the digital ledger. Connect your Metamask wallet to the secure application to buy, sell, or send crypto to loved ones anywhere in the world. Recipients receive funds instantly; and have the option to convert Ethereum into any crypto they prefer at the current exchange value.",
     link: "https://quickoin.netlify.app/",
       linkText: "Check It Out Use This Link .",
     tags: "Fun Javascript, Firebase"
