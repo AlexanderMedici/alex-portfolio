@@ -80,7 +80,7 @@ $(document).ready(function(){
 const accordionContent = [
   {
     title: " A Path Finder Project - Implementing Dijkstra's Algorithm",
-    img: "images/11.webp",
+    img: "images/Capture.webp",
     body: "This is a path finder project makes use of Dijkstra's algorithm. The project displays a graphed board where predetermined starting (top left box) and ending (bottom right box) nodes are provided. One can use their mouse anywhere on the grid, to block the route between the two nodes. Space which is blocked out on the grid are displayed as buildings. Once the user is satisfied with the areas blocked on the grid, the run algorithm button can be clicked. The pathfinder will then deploy Dijkstra's algorithm. This will quickly find the shortest path between the two given nodes.",
      link: "https://dijkstraalgorithmvisulaizer.netlify.app/",
     linkText: "Check It Out Use This Link .",
@@ -88,7 +88,7 @@ const accordionContent = [
   },
   {
     title: "Blockchain Transaction Application",
-    img: "images/7.webp",
+    img: "images/capture 2.webp",
     body: "Quickoin allows users to send transactions through the block chain. Each transaction is paired with a Gif & stored forever on the digital ledger. Connect your Metamask wallet to the secure application to buy, sell, or send crypto to loved ones anywhere in the world. Recipients receive funds instantly; and have the option to convert Ethereum into any crypto they prefer at the current exchange value.",
     link: "https://quickoin.netlify.app/",
       linkText: "Check It Out Use This Link .",
