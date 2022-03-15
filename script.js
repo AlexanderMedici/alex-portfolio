@@ -81,7 +81,7 @@ const accordionContent = [
   {
     title: " A Path Finder Project - Implementing Dijkstra's Algorithm",
     img: "images/Capture.webp",
-    body: "This is a path finder project makes use of Dijkstra's algorithm. The project displays a graphed board where predetermined starting (top left box) and ending (bottom right box) nodes are provided. One can use their mouse anywhere on the grid, to block the route between the two nodes. Space which is blocked out on the grid are displayed as buildings. Once the user is satisfied with the areas blocked on the grid, the run algorithm button can be clicked. The pathfinder will then deploy Dijkstra's algorithm. This will quickly find the shortest path between the two given nodes.",
+    body: "This is a path finder project which makes use of Dijkstra's algorithm. The project displays a graphed board where predetermined starting (top left box) and ending (bottom right box) nodes are provided. One can use their mouse anywhere on the grid, to block the route between the two nodes. Space which is blocked out on the grid are displayed as buildings. Once the user is satisfied with the areas blocked on the grid, the run algorithm button can be clicked. The pathfinder will then deploy Dijkstra's algorithm. This will quickly find the shortest path between the two given nodes.",
      link: "https://dijkstraalgorithmvisulaizer.netlify.app/",
     linkText: "Check It Out Use This Link .",
     tags: "Pathfinding Algorithm, Dijkstra"
