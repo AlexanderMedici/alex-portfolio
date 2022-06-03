@@ -269,7 +269,7 @@ section .title::after{
     background: #fff;
 }
 .services .title::after,
-{
+
     background: #111;
     content: "what i provide";
 }
@@ -1239,3 +1239,108 @@ footer span a:hover{
         line-height: 38px;
     }
 }
+/*  certificates  */
+:root {
+      /* no of slides excluding last duplicate */
+      --slide-count: 17;
+      /* time that a slide stays idle and slides left */
+      /* 70% idle, 30% sliding animation */
+      --slide-time: 3s;
+
+      --carousel-width: 300px;
+      --carousel-height: 150px;
+    }
+
+    .slide {
+      height: 95vh;
+      width: 95vw;
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      
+    }
+
+    .cred {
+      margin: 10;
+      width: var(--carousel-width);
+      height: var(--carousel-height);
+      white-space: nowrap;
+      contain: layout style;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      counter-reset: count;
+     
+    }
+
+    .slide {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      left: 0;
+      flex: none;
+
+      animation-name: shiftMe, slideMe;
+      animation-duration: calc(var(--slide-time) * var(--slide-count)),
+        var(--slide-time);
+      animation-timing-function: steps(var(--slide-count), end), ease-out;
+      animation-iteration-count: infinite;
+
+      counter-increment: count;
+      position: relative;
+    }
+/* erase counter wehn done use to keet sanitycheck  */
+    .slide::before {
+      content: counter(count);
+      position: absolute;
+      top: 0px;
+
+      font-size: 1rem;
+    }
+
+    .slide:last-child::before {
+     
+    }
+
+    @keyframes shiftMe {
+      0% {
+        top: 0px;
+      }
+
+      100% {
+        top: calc(var(--carousel-height) * var(--slide-count) * -1);
+      }
+    }
+
+    @keyframes slideMe {
+      0% {
+        transform: translateY(0px);
+      }
+
+      70% {
+        transform: translateY(0px);
+      }
+
+      100% {
+        transform: translateY(calc(var(--carousel-height) * -1));
+      }
+    }
+
+    .carousel:hover .slide {
+      animation-play-state: paused;
+    }
+
+    .slide:nth-child(even) {
+      background-color: rgba(255,255,255); 
+    }
+
+    .slide:nth-child(odd),
+    .slide:last-child {
+        background-color: rgba(255,255,255); 
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
